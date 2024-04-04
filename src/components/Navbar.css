@@ -1,0 +1,31 @@
+
+.navbar {
+    background-color: rgba(83, 80, 80, 0.8);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: space-between;
+    font-family: "Playfair Display";
+    font-weight:700;
+    font-size:19px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 92%;
+  }
+  
+  
+  .navbar-button {
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-button:hover {
+    background-color: #FF6347;
+  }
+  

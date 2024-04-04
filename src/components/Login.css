@@ -1,0 +1,59 @@
+.content-container2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.combined-box h2{
+    font-size: 40px;
+  }
+.combined-box input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: rgba(1,1,1,0.3);
+}
+
+.combined-box{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20%;
+    background-color: rgba(233, 233, 233, 0.8); 
+    border: 2px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border-color: #000000;
+    padding: 50px 70px 50px 70px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.combined-box h2{
+    text-align: center;
+}
+
+
+
+.content-container2 button {
+    margin-top:10px;
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff; /* Submit button background color */
+    color: #ffffff; /* Submit button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Playfair-Display";
+    font-size: 20px;
+  }
+  
+  .content-container2 button:hover {
+    background-color: #0056b3;
+    box-shadow: black; /* Hover background color for the submit button */
+  }
+  

@@ -1,0 +1,71 @@
+.goods-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    padding-left: 20px;
+    
+  }
+  
+  .goods-form {
+    
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Maximum width of the form */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(233, 233, 233, 0.8); /* Background color of the form */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for the form */
+    font-family: "Playfair-Display";
+    font-size: 20px;
+   justify-content: center;
+   margin-left: 20px;
+
+  }
+
+  .goods-form h3{
+    text-align:center;
+    font-size:40px;
+  }
+
+ 
+  
+  .form-group {
+    margin-bottom: 20px; /* Spacing between form groups */
+    margin-left:110px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='number'],
+  input[type='email'],
+  .form-group textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: rgba(1,1,1,0.3);
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Submit button background color */
+    color: #ffffff; /* Submit button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Playfair-Display";
+    font-size: 20px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+    box-shadow: black; /* Hover background color for the submit button */
+  }
+  
