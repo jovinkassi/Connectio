@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Connectio
+Connectio is a marketplace website that empowers users to search for goods or services using simple, prompt-based queries. With distinct domains for goods and services, users can effortlessly navigate the platform to find the resources they need to realize their production or startup ideas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+### 1. Simplified Search Queries
+Connectio offers a streamlined search experience, allowing users to find goods or services with simple, prompt-based queries. Whether you're seeking materials for production or essential services for your startup, Connectio's intuitive search functionality makes the process effortless.
 
-## Available Scripts
+### 2. Distinct Domains for Goods and Services
+The platform is organized into distinct domains for goods and services, enabling users to navigate seamlessly to find the resources they need for their entrepreneurial endeavors. Whether you're in need of physical products or essential services, Connectio has you covered.
 
-In the project directory, you can run:
+## How we built it
+Connectio was developed with a strong emphasis on user experience and accessibility. To achieve this, we utilized a combination of modern web development technologies. Our frontend was built using React, ensuring a responsive and interactive interface for users. On the backend, we leveraged Flask to handle server-side logic and API interactions. Additionally, we integrated Gemini APIs for secure transactions and Chainlit for managing our comprehensive database of goods and services. This tech stack enabled us to create an intuitive platform with seamless navigation and efficient search functionality, empowering users to easily find the resources they need for their entrepreneurial endeavors.
 
-### `npm start`
+## Technologies
+- **Frontend**: React
+- **Backend**: Flask
+- **Database**: SQLite
+- We have also used Gemini API and chainlit
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Demo
+https://www.youtube.com/watch?v=lJBesu36r_I&t=102s
+  
+## Contributors
+- **K Govind**: https://github.com/Clasherzz
+- **Devika Rajeevan**: https://github.com/devikarajeevan
+- **Jovin Johny Kassi**: https://github.com/jovinkassi
+- **Shreya Jayaraj**: https://github.com/Shreya-Jayaraj
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
+1. Clone the repository.
+2. Install dependencies using `npm install` for frontend and `pip install -r requirements.txt` for backend.
+3. Start the frontend server with `npm start` and backend server with `flask run`.
+4. Access the application in your web browser.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Feedback and Contributions
+We welcome feedback and contributions from the community. Feel free to open an issue or submit a pull request.
